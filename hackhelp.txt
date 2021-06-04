@@ -1,0 +1,74 @@
+alias hackhelp='
+echo
+echo| `man <tool>`              | Opens man pages for the specified tool. 
+echo| `<tool> -h`                  | Prints the help page of the tool. 
+echo| `apropos <keyword>` | Searches through man pages' descriptions for instances of a given keyword. 
+echo| `cat`                            | Concatenate and print files. 
+echo| `whoami`                    | Displays current username.  
+echo| `id`                              | Returns users identity. 
+echo| `hostname`                  | Sets or prints the name of the current host system. 
+echo| `uname`                      | Prints operating system name. 
+echo| `pwd`                          | Returns working directory name. 
+echo| `ifconfig`                     | The `ifconfig` utility is used to assign or view an address to a network interface and/or configure network interface parameters.  
+echo| `ip`                              | Ip is a utility to show or manipulate routing, network devices, interfaces, and tunnels. 
+echo| `netstat`                       | Shows network status. 
+echo| `ss`                              | Another utility to investigate sockets. 
+echo| `ps`                              | Shows process status. 
+echo| `who`                          | Displays who is logged in. 
+echo| `env`                            | Prints environment or sets and executes a command.
+echo| `lsblk`                          | Lists block devices. 
+echo| `lsusb`                         | Lists USB devices. 
+echo| `lsof`                           | Lists opened files. 
+echo| `lspci`                          | Lists PCI devices.  
+echo| `sudo`                         | Execute command as a different user. 
+echo| `su`                             | The `su` utility requests appropriate user credentials via PAM and switches to that user ID (the default user is the superuser). 
+echo| `useradd`                    | Creates a new user or update default new user information. 
+echo| `userdel`                      | Deletes a user account and related files. 
+echo| `usermod`                   | Modifies a user account. 
+echo| `addgroup`                 | Adds a group to the system.  
+echo| `delgroup`                   | Removes a group from the system.  
+echo| `passwd`                      | Changes user password. 
+echo| `dpkg`                         | Install, remove and configure Debian-based packages.  
+echo| `apt`                            | High-level package management command-line utility.  
+echo| `aptitude`                    | Alternative to `apt`. 
+echo| `snap`                          | Install, remove and configure snap packages. 
+echo| `gem`                           | Standard package manager for Ruby. 
+echo| `pip`                            | Standard package manager for Python.  
+echo| `git`                             | Revision control system command-line utility.  
+echo| `systemctl`                   | Command-line based service and systemd control manager. 
+echo| `ps`                              | Prints a snapshot of the current processes. 
+echo| `journalctl`                  | Query the systemd journal. 
+echo| `kill`                             | Sends a signal to a process.  
+echo| `bg`                              | Puts a process into background. 
+echo| `jobs`                           | Lists all processes that are running in the background. 
+echo| `fg`                               | Puts a process into the foreground.
+echo| `curl`                            | Command-line utility to transfer data from or to a server.  
+echo| `wget`                           | An alternative to `curl` that downloads files from FTP or HTTP(s) server.  
+echo| `ls`                                | Lists directory contents.
+echo| `cd`                               | Changes the directory.
+echo| `clear`                           | Clears the terminal.  
+echo| `touch`                         | Creates an empty file. 
+echo| `mkdir`                         | Creates a directory. 
+echo| `tree`                            | Lists the contents of a directory recursively. 
+echo| `mv`                             | Move or rename files or directories. 
+echo| `cp`                              | Copy files or directories. 
+echo| `nano`                         | Terminal based text editor.  
+echo| `which`                        | Returns the path to a file or link. 
+echo| `find`                           | Searches for files in a directory hierarchy.  
+echo| `updatedb`                   | Updates the locale database for existing contents on the system. 
+echo| `locate`                         | Uses the locale database to find contents on the system. 
+echo| `more`                          | Pager that is used to read STDOUT or files. 
+echo| `less`                             | An alternative to `more` with more features.  
+echo| `head`                           | Prints the first ten lines of STDOUT or a file. 
+echo| `tail`                              | Prints the last ten lines of STDOUT or a file.  
+echo| `sort`                             | Sorts the contents of STDOUT or a file. 
+echo| `grep`                            | Searches for specific results that contain given patterns. 
+echo| `cut`                              | Removes sections from each line of files. 
+echo| `tr`                                 | Replaces certain characters. 
+echo| `column`                       | Command-line based utility that formats its input into multiple columns. 
+echo| `awk`                             | Pattern scanning and processing language. 
+echo| `sed`                              | A stream editor for filtering and transforming text.  
+echo| `wc`                               | Prints newline, word, and byte counts for a given input.
+echo| `chmod`                        | Changes permission of a file or directory. 
+echo| `chown`                         | Changes the owner and group of a file or directory. 
+echo'
